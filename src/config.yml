@@ -1,0 +1,69 @@
+#YuriCTF Configuration file.
+#---------------------------
+#
+#This is the configuration example of special points coords of a CTF map
+game_0:
+    #The blue flag location (x, y, z)
+    blueFlag:
+        x: 0
+        y: 80
+        z: 0
+    #The red flag location (x, y, z)
+    redFlag:
+        x: 0
+        y: 80
+        z: 0
+    #The blue spawn location (x, y, z)
+    blueSpawn:
+        x: 0
+        y: 80
+        z: 0
+    #The red spawn location (x, y, z)
+    redSpawn:
+        x: 0
+        y: 80
+        z: 0
+    #The name of the map
+    mapName: NoName
+    #The time the world needs to be stopped at
+    mapTime: 0
+#
+#The lobby spawn location (x, y, z)
+lobbySpawn:
+    x: 0
+    y: 80
+    z: 0
+#
+#The shop location (x, y, z)
+shop:
+   x: 0
+   y: 80
+   z: 0
+#
+#The number of capture a team can reach to end automatically the game
+capNumber: 10
+#
+#Second line of the server motd
+secondMotdLine: Nothing here !
+#
+#Map number, used by YuriCTF to know how many "game_#" maps do you have
+mapNumber: 0
+#
+#Is the map in edit mode
+editingMap: true
+#
+#The join message to display when a player joins server
+joinMessage: Player PLAYER_NAME has joined the server !
+#
+#The leave message to display when a player leaves the server
+leaveMessage: Player PLAYER_NAME has left the server !
+#
+#The kick message (displayed when a player become kicked from server)
+kickMessage: Player PLAYER_NAME has been kicked from the server !
+#
+#Plugin messages :
+messages:
+    a: Welcome to a YuriCTF server !
+    b: Did you know ? All classes are free !
+    c: You can choose between Ninja, Heavy, Soldier, Pyro, Archer, Mage and Medic classes !
+    d: Let your friends know this server ! More players = more updates !

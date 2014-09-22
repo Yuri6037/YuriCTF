@@ -1,0 +1,71 @@
+name: YuriCTF
+version: 0.0.1
+description: Yuri's Capture the flag !
+main: fr.yurictf.YuriCTF
+depend: [ProtocolLib]
+commands:
+    toggleFlagSet:
+        description: Toggles flag place tool
+        usage: /<command>
+    setRedSpawn:
+        description: Sets red spawn
+        usage: /<command>
+    setBlueSpawn:
+        description: Sets the blue spawn
+        usage: /<command>
+    setLobbySpawn:
+        description: Sets the lobby spawn
+        usage: /<command>
+    setShopSpawn:
+        description: Sets the shop spawn
+        usage: /<command>
+    setMapTime:
+        description: Sets the map time
+        usage: /<command> time(int)
+    ctfEndGame:
+        description: Ends the current CTF game and send players to lobby
+        usage: /<command>
+    extention:
+        description: Extention management (Master only)
+        usage: /<command>
+
+    ctfKick:
+        description: Replacement of kick command
+        usage: /<command> username reason
+    ctfBan:
+        description: Bans a player
+        usage: /<command> username reason
+    ctfDeop:
+        description: Replacement of deop command
+        usage: /<command> username reason
+    ctfOp:
+        description: Replacement of op command
+        usage: /<command> username
+    ctfUnban:
+        description: Unbans a player
+        usage: /<command> username
+
+    ctfEndGame:
+        description: Ends the current CTF game...
+        usage: /<command>
+    ctfChangeMap:
+        description: Used for changing maps between server maps
+        usage: /<command> mapName
+    ctfGenerateWorld:
+        description: Generates a new world
+        usage: /<command>
+    ctfAddBuilder:
+        description: Adds a builder by it's username to YuriCTF editing mode
+        usage: /<command> username
+    ctfRemoveBuilder:
+        description: Removes a builder by it's username from YuriCTF editing mode
+        usage: /<command> username
+    ctfCreateTileEntity:
+        description: Creates a saved YuriCTF TileEntity
+        usage: /<command> tileEntityClassName tileEntityArgs
+    ctfDeleteTileEntity:
+        description: Deletes a saved YuriCTF TileEntity
+        usage: /<command>
+    class:
+        description: Change your CTF class
+        usage: /<command> className = The name of the class

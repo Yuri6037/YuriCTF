@@ -1,0 +1,20 @@
+class.noFlagCare.heavy=Heavy's can't care flags !
+class.noFlagCare.medic=Medic's can't care flags !
+class.desc.heavy=Most heavy class, no ability to pickup flags... Good for PVP.
+class.desc.medic=Can't care flags, medics are essential to help others by regenerating their life !
+class.desc.soldier=The lightest class ! Good to care flags.
+game.terminated.1=The current game has ended ! Players have been sent to lobby...
+game.terminated.2=Waiting for server to stop...
+game.reboot=Due to recent plugin update, players have not been disconnected !
+game.session.new=Creating new game session...
+game.session.done=Done, enjoy playing on YuriCTF server !
+command.noPlayer=You're not a player : Console uses are not allowed in YuriCTF !
+command.class.noGame=You cannot use any class when the game is finished !
+command.class.list=YuriCTF Class help ; to pickup a class, do /class className :
+command.class.notFound=This class does not exist !
+command.class.choosed=You choosed the #CLASS_NAME# class !
+command.invalid=Invalid YuriCTF command !
+timer.timeCheck=This game is running from #TIME# now...
+shop.insufisant=You have not enough points to get this item !
+shop.bought=You bought a #ITEM_NAME# from shop !
+
